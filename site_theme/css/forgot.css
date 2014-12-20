@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(25, 33, 73);
+	margin: 0px auto 0px auto;
+	width: 90%;
+	text-align: center;
+	padding: 100px 0px 0px 0px;
+}
+form {
+	border: 4px solid black;
+	color: white;
+	border-radius: 30px;
+	background-color: black;
+	padding: 10px;
+	font-size: 40px;
+	display: inline-block;
+	
+	
+}
+input {
+	font-size: 30px;
+	text-align: center;
+	border-radius: 15px;
+}
+#message {
+	color: white;
+	font-size: 40px;
+}
+.banner {
+	font-size: 50px;
+	border: 12px solid black;
+	border-radius: 30px;
+	width: 60%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin: 0 auto 20 auto;
+}

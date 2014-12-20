@@ -1,0 +1,35 @@
+
+
+body {
+	background-color: black;
+	color: white;
+}
+
+table td {
+	border: 2px solid black;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+
+
+form input {
+	background: rgba(40, 44, 128, 0.9);
+	text-align: center;
+	vertical-align: middle;
+	color: rgb(240, 240, 247);
+	font-weight: bold;
+	font-size: 30px;
+	border: 3px solid black;
+	border-radius: 15px;	
+}

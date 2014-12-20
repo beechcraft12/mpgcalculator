@@ -1,0 +1,117 @@
+body {
+	background: linear-gradient(rgb(37, 40, 44), rgb(27, 51, 85), rgb(31, 51, 77), rgb(37, 37, 66));
+	color: rgb(252, 252, 252);
+	font-size: 39px;
+}
+
+select {
+	height: 50px;
+	width: 200px;
+	font-size: 30px;
+}
+
+table td {
+	border: 2px solid black;
+	font-size: 30px;
+	font-weight: bold;
+	background: rgba(32, 37, 51, 0.6);
+}
+
+table th {
+	border: 2px solid black;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+#into {
+	border: 2px solid black;
+	font-size: 30px;
+	font-weight: bold;
+	background: green;
+}
+#addnewplane {
+	border: 2px solid black;
+	font-size: 30px;
+	font-weight: bold;
+	background: rgb(17, 17, 53);
+}
+#canceladd {
+	border: 2px solid black;
+	font-size: 30px;
+	font-weight: bold;
+	background: yellow;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color:    rgb(149, 151, 189);
+}
+
+
+.btn{ 
+	background-color: rgba(0, 0, 0, 0.87);
+	display: inline-block;
+	color: white;
+	font-family: 'Railway';
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	width: auto;
+	line-height: 1rem;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 0.625rem;
+	margin-right: 1px;
+	margin-top: 1px;
+	letter-spacing: -0.03rem;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.btn:hover{
+    color:#fff;
+    background-color: rgba(82, 82, 82, 0.87);
+}
+
+form input {
+	background: white;
+	text-align: center;
+	vertical-align: middle;
+	color: blue;
+	font-weight: bold;
+	font-size: 30px;
+	border: 3px solid black;
+	border-radius: 15px;	
+}
+.customplane {
+	background: black;
+	text-align: center;
+	vertical-align: middle;
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	border: 3px solid black;
+	border-radius: 15px;
+}
+
+#info {
+	font-size: 30px;
+	font-weight: bold;
+	border: 6px solid black;
+	border-radius: 15px;
+	margin: 5px auto 5px auto;
+	width: 50%
+}
